@@ -4,11 +4,18 @@
 #include <string>
 using namespace std;
 
-//define visitor class here
+ public:
+     visitor(int ticketsBought, string vistorname) {
+         tickets = ticketsBought;
+         namevisit  = vistorname;
+        
+     }
 
+     void displayInfo() {
+         cout << "tickets " << ticketsBougt << endl;
+         cout << "name " << vistorname << endl;
 
-
-
+     }
 
 
 
