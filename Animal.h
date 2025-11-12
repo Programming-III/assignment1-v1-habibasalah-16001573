@@ -1,11 +1,24 @@
-#ifndef ANIMAL_H
-#define ANIMAL_H
-
+#include <iostream>
 #include <string>
 using namespace std;
+class Animal{
+private:
+    int age;
+    string name;
+    bool isHungry;
 
-//define animal class here 
-class Animal
 
+public:
+    Animal(int age, string name , bool isHunrgy) {
+        age = age;
+        name = name;
+        hunrgy = isHungry;
+    }
 
+    void displayInfo() {
+        cout << "Animal age " << age << endl;
+        cout << "name " << name << endl;
+        cout << "hungry" << hungry << endl;
+
+    }
 #endif
